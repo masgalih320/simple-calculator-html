@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #316B83;
+  font-family: "Lato", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .header h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#app .content .board {
+  background-color: #A8E7E9;
+  box-shadow: 0 0 25px #A8E7E9;
+  padding: 3px;
+  height: auto;
+}
+
+#app .content .board #v {
+  background-color: #fff;
+  color: #000;
+  text-align: right;
+  border: none !important;
+
+  font-size: 50px;
+  width: 30vw;
+  padding-left: 10px;
+  padding-right: -10px;
+  outline: none !important;
+  -moz-appearance: textfield;
+}
+
+#app .content .board #res {
+  background-color: #fff;
+  color: #000;
+  text-align: right;
+  border: none !important;
+  font-size: 50px;
+  width: 30vw;
+  padding-left: 10px;
+  padding-right: -10px;
+  outline: none !important;
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="button"] {
+  cursor: pointer;
+  height: 100px;
+  border: none !important;
+  font-size: 40px;
+  background-color: #00A19D;
+  color: #FFF;
+}
+
+input[type="button"]:hover {
+  background-color: #018684;
+}
+
+input[type="button"]:active {
+  background-color: #03615f;
+}
+
+.controls {
+  margin-top: 3px;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 3px;
+}
+
+input[value="C"] {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+input[value="0"] {
+  grid-column: 2;
+}
+
+.ops {
+  margin-top: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+
+input[value="+"] {
+  grid-column: 1;
+}
+
+input[value="="] {
+  grid-row: 4;
+  grid-column: 3;
+  background-color: #22577A;
+}
