@@ -10,4 +10,4 @@ Sorry for my bad english, because iam Indonesian :)<br>
 - Me :D
 - Indihome internetnya Indonesia :P
 
-Support me via saweria: https://saweria.co/masgalih320
+Support me via <a href="https://sociabuzz.com/masgalih320/support">Sociabuzz</a>
